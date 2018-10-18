@@ -1,0 +1,16 @@
+server:
+  port: 8010
+  
+spring:
+  application:
+    name: zipkin-server
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://dev.tss.com:8080/eureka/
+      
+logging:
+  level:
+    root: INFO
+    com.tss: DEBUG
