@@ -42,16 +42,6 @@
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
 		
-		<dependency>
-			<groupId>io.zipkin.java</groupId>
-			<artifactId>zipkin-server</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>io.zipkin.java</groupId>
-			<artifactId>zipkin-autoconfigure-ui</artifactId>
-		</dependency>
-		
 		<!-- spring boot -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -68,6 +58,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<!-- zipkin -->
+		<dependency>
+			<groupId>io.zipkin.java</groupId>
+			<artifactId>zipkin-server</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>io.zipkin.java</groupId>
+			<artifactId>zipkin-autoconfigure-ui</artifactId>
 		</dependency>
 	</dependencies>
 
