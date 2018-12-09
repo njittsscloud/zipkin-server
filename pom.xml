@@ -12,7 +12,7 @@
 	<groupId>com.tss.zipkin-server</groupId>
 	<artifactId>zipkin-server</artifactId>
 	<version>1.0.0</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>zipkin-server</name>
 	<description>zipkin-server</description>
 
@@ -48,12 +48,6 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
  
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<!--<scope>provided</scope>-->
-		</dependency>
-		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
